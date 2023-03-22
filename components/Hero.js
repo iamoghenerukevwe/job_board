@@ -12,7 +12,7 @@ export default function Hero() {
         <div className={styles.hero}>
             
             <div className={styles.nav}>
-            <Link href="https://www.google.com/"> 
+            <Link href="https://github.com/iamoghenerukevwe/job_board/" target="_blank"> 
             <div className={styles.github}><BsGithub /><BsStarFill color='gold' /></div>            
             </Link>
             </div>
@@ -28,9 +28,7 @@ export default function Hero() {
                  
             </div>
 
-            <div className={styles.rotate}>
-        
-            </div>
+           
 
             <div className={styles.credit}>
                 <span>This is not intended for profit!      

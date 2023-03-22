@@ -9,7 +9,7 @@
     align-items: center;
     min-height: 100vh;
     color: white;
-    background-color: rgb(1, 17, 14);
+    background-color: black;
     font-family: 'Cheeronsta', sans-serif;
   }
   .nav{
@@ -24,11 +24,12 @@
 
 .github{
     display: flex;
-    justify-content: space-between;
-    border: 3px solid #b49a05;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid green;
     border-radius: 5px;
-    padding: 1em;
-    width: 6em;
+    width: 4em;
+    height: 3em;
 }
 .focus{
     margin-top: 10vh;
@@ -42,7 +43,7 @@
     color: #FAF5DD;
   }
   .primary span{
-    background-color: #887508;
+    background-color: green;
     padding: .1em .1em 0 .1em;
     border-radius: 10px;
     margin-left: -.3em;
@@ -67,7 +68,7 @@
     height: 5vh;
     font-size: larger;
     color: white;
-    background-color: #b49a05;
+    background-color: green;
     margin-bottom: 2vh;
     display: flex;
     justify-content: center;
@@ -76,6 +77,7 @@
 
   .credit span{
     display: inline-block;
+
     animation: credit 120s linear infinite;
   }
 

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Hero from '../components/Hero'
+import Job_board from '../components/Job_board'
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         
         <Hero />
+        <Job_board />
 
       </main>
     </>

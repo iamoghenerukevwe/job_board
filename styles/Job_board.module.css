@@ -1,0 +1,27 @@
+
+.job {
+    
+    min-height: 100vh;
+    color: black;
+    
+    background-size: contain;   
+    background-image: url("../public/peakpx.jpg");
+    font-family: 'Cheeronsta', sans-serif;
+  }
+
+  .lay{   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
+  .first{
+    padding-top: 5vh;
+    font-size: 1.2rem;
+    width: 80vh;
+    text-align: center;
+  }
