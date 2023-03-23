@@ -1,7 +1,7 @@
 import styles from '@/styles/Hero.module.css'
 import Link from 'next/link'
 
-import { BsStarFill, BsGithub } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
 
 
 export default function Hero() {
@@ -11,11 +11,7 @@ export default function Hero() {
 
         <div className={styles.hero}>
             
-            <div className={styles.nav}>
-            <Link href="https://github.com/iamoghenerukevwe/job_board/" target="_blank"> 
-            <div className={styles.github}><BsGithub /><BsStarFill color='gold' /></div>            
-            </Link>
-            </div>
+           
 
             <div className={styles.focus}>
                 
@@ -27,7 +23,15 @@ export default function Hero() {
                                             on this job board.</div>
                  
             </div>
+            <div className={styles.nav}>
+            <Link href="https://github.com/iamoghenerukevwe/job_board/" target="_blank"> 
+            <div className={styles.github}>Star on  <BsGithub /></div>            
+            </Link>
 
+            <Link href ="/">
+                <div className={styles.apply}>Apply</div>
+            </Link>
+            </div>
            
 
             <div className={styles.credit}>
