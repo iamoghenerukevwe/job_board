@@ -11,7 +11,9 @@ export default function Hero() {
 
         <div className={styles.hero}>
             
-           
+            <div className={styles.credit}>
+                <span> The following project is intended solely for the purpose of helping others and is not intended to generate any profit or financial gain. </span>
+                        </div>
 
             <div className={styles.focus}>
                 
@@ -34,18 +36,7 @@ export default function Hero() {
             </div>
            
 
-            <div className={styles.credit}>
-                <span>This is not intended for profit!      
-                            This is not intended for profit!    
-                            This is not intended for profit!      
-                             This is not intended for profit!  
-                            This is not intended for profit!  
-                            This is not intended for profit!  
-                            This is not intended for profit!  
-                            This is not intended for profit!  
-                            This is not intended for profit!  
-                            This is not intended for profit!  </span>
-                        </div>
+            
 
         </div>
     )
