@@ -1,37 +1,42 @@
 
 .job {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 100vh;
     color: black;
     background-size: contain;   
     font-family: 'Cheeronsta', sans-serif;
+    background: rgb(10,29,21);
+    background: linear-gradient(108deg, #040e0a 0%, #091b16 82%);
   }
   
-  .job::before{
-    content: "";
-    background-image: url("../public/peakpx.jpg");
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.1;
-}
 
   .lay{  
     position: relative; 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    min-height: 100vh;
-    min-width: 100vw;
+    height: 80vh;
+    width: 72vw;
+    background-color: red;
   }
 
   .first{
     padding-top: 5vh;
     font-size: 1.2rem;
-    width: 80vh;
+    width: 30%;
+    height: 100%;
     text-align: center;
+    background-color: rgb(26, 60, 211);
+  }
+  
+  .card{
+    padding-top: 5vh;
+    font-size: 1.2rem;
+    width: 30%;
+    text-align: center;
+    background-color: rgb(22, 173, 47);
   }

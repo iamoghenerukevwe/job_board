@@ -1,0 +1,65 @@
+@import url('https://fonts.cdnfonts.com/css/ploni');
+
+.back{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15vw 0 15vw;
+    height: 80vh;
+    background-color: #ffffff;
+    
+}
+.main{
+    font-family: 'PloniMLv2AAA-D-Bold', sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 4vh;
+    text-align: left;
+    color:#004044;
+}
+
+.text{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    font-size: 1em;
+    color: #004044d5;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    font-family: 'Cheeronsta', sans-serif;
+    
+}
+
+.shadow{
+    background-color: red;
+    height: 70%;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.562) 0px 5px 15px;
+}
+.github{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vh;
+    padding: 0 10px 0 10px;
+    background-color:  #00373b;
+    width: 7vw;
+    color: #faf5dd;
+    height: 7vh;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+.svg{
+    height: 100%;
+    width: 100%;
+    background-color: #caf1e6;
+    background-image: url("../public/new.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -18px 18px 0px #002d30;
+}

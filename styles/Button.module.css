@@ -1,0 +1,63 @@
+
+.link {
+	width:7rem;
+	height: 7rem;
+	display: inline-block;
+	font-size: 1.4rem; 
+	text-transform: uppercase;
+	letter-spacing: 0.1175em;
+	word-spacing: 0.3em;
+	text-decoration: none;
+    position: absolute;
+}
+
+.svg {
+		width: 100%;
+		height: auto;
+		transform-box: fill-box;
+		fill: #FAF5DD;
+		stroke:  #FAF5DD;
+		stroke-width: 0.2em;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+	}
+
+.cloud {
+		transform-origin: 50% 50%;
+		animation: rotate normal infinite 20s linear;
+		fill: rgba(223, 217, 217, 0);
+	}
+
+	.face {
+		transform-origin: 50% 50%;
+		transition: rotate 190deg;
+		background-color: red;
+	}
+	
+
+	.text {
+		animation: rotateReverse normal infinite 20s linear;
+		transform-origin: 50% 50%;
+	}
+    .link::hover {
+        animation-play-state: paused;
+    }   
+
+	.alt {
+		font-size: 2rem;
+		letter-spacing: 0;
+		word-spacing: 0;
+	}
+
+
+@keyframes rotate {
+	to {
+		transform: rotate(-360deg);
+	}
+}
+
+@keyframes rotateReverse {
+	to {
+		transform: rotate(360deg);
+	}
+}

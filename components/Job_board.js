@@ -9,11 +9,10 @@ export default function Job_board() {
             <div className={styles.lay}>
             
                 <div className={styles.first}>
-                In today’s highly competitive world and with remote 
-work coming to stay, everything that can be done to give the 
-developer an edge and ease the quest for a role should be encouraged.
- This was my driving and deciding motivation in creating this job board.
+                
                 </div>
+
+                <div className={styles.card}></div>
 
             </div>
 
