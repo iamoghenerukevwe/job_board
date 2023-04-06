@@ -12,7 +12,16 @@ export default function Job_board() {
                 
                 </div>
 
-                <div className={styles.card}></div>
+                <div className={styles.group }>
+                    <div className={styles.card}></div>
+                    <div className={styles.card}></div>
+                    <div className={styles.card}></div>
+                    <div className={styles.card}></div>
+                    <div className={styles.card}></div>
+                    <div className={styles.card}></div>
+                    <div className={styles.card}></div>
+                    <div className={styles.card}></div>
+                </div>
 
             </div>
 

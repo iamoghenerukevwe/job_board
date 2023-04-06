@@ -19,11 +19,11 @@ export default function Button() {
 
 					
 
-					<text className={styles.text}>
+					<div className={styles.text}>
 						<textPath href="#link-circle-alt" stroke="none">
-							• Start Applying • Click here 
+						<Link href ="https://nextjs.org/docs/messages/react-hydration-error"> • Start Applying • Click here </Link>
 						</textPath>
-					</text>
+					</div>
 				</svg>
 			</Link>
 	)

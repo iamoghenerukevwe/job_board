@@ -10,7 +10,7 @@
     justify-content: flex-start;
     padding-bottom: 5vh;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     color: white;
     background: rgb(10,29,21);
     background: linear-gradient(108deg, #040e0a 0%, #091b16 82%);
@@ -35,10 +35,9 @@
     align-items: center;
     min-height: 19vh;
     width: 9vw;
-    margin-top: 8vh;
+    margin-top: 20vh;
     border-radius: 10em;
-    background-color: #091b16;
-    box-shadow: 0 7px 30px -10px rgba(0, 0, 0, 0.836);
+    background-color: #FAF5DD;
   }
 
   .apply{

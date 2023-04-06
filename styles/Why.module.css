@@ -7,7 +7,7 @@
     align-items: center;
     padding: 0 15vw 0 15vw;
     height: 80vh;
-    background-color: #ffffff;
+    background-color: #faf5dd;
     
 }
 .main{
@@ -45,9 +45,9 @@
     align-items: center;
     margin-top: 5vh;
     padding: 0 10px 0 10px;
-    background-color:  #00373b;
+    border: 4px  solid #00373b;
     width: 7vw;
-    color: #faf5dd;
+    color: #091b16;
     height: 7vh;
     transition: all 0.3s ease;
     overflow: hidden;

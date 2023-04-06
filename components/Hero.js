@@ -32,7 +32,7 @@ export default function Hero() {
             <div className={styles.nav}>
             
 
-            <Link href ="/">
+            <Link href ="https://nextjs.org/docs/messages/react-hydration-error">
                 <div className={styles.apply}>
                     <Button />
                 </div>
