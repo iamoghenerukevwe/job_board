@@ -1,5 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/g-guarantee');
+@import url('https://fonts.cdnfonts.com/css/g-grest');
+
 .explore{
-    height:70vh;
+    height:90vh;
     width: 100vw;
-    background-color: #e6e6e6;
+    padding: 4% 5% 4% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.info{
+    width: 50%;
+    height: 20vh;
+    background-color: red;
+    border-radius: 20px;
+}
+.header{
+    font-size: 2em;
+    color: #9c8503;
+    font-family: 'g Guarantee', sans-serif;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35vh;
+    width: 16vw;
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.small{
+    text-align: justify;
+}
+
+.png_1{
+    background-image: url("../public/ui.png");
+    height: 10vh;
+    width: 5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+}
+
+.png_2{
+    background-image: url("../public/writing.png");
+    height: 10vh;
+    width: 5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+}
+
+.png_3{
+    background-image: url("../public/web.png");
+    height: 10vh;
+    width: 5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+}
+
+.png_4{
+    background-image: url("../public/python.png");
+    height: 10vh;
+    width: 5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+}
+
+.png_5{
+    background-image: url("../public/secure.png");
+    height: 10vh;
+    width: 5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
 }
