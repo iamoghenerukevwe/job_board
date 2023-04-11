@@ -28,3 +28,11 @@ export default function Button() {
 			</Link>
 	)
 }
+
+/*
+<div className={styles.credit}>
+                <span> The following project is intended solely for the purpose of helping others and is not intended to generate any profit or financial gain. </span>
+                <span> The following project is intended solely for the purpose of helping others and is not intended to generate any profit or financial gain. </span>
+                        </div>
+*/
+						

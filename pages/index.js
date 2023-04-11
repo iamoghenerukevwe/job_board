@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 import Hero from '../components/Hero'
 import Job_board from '../components/Job_board'
 import Why from '../components/Why'
+import Category from '../components/Category'
 
 
 export default function Home() {
@@ -17,8 +18,9 @@ export default function Home() {
       <main className={styles.main}>
         
         <Hero />
-        <Why />
+        <Category />
         <Job_board />
+        <Why />
         
 
       </main>

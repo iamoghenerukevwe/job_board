@@ -2,6 +2,7 @@ import styles from '@/styles/Why.module.css'
 import { BsGithub } from 'react-icons/bs';
 import Link from 'next/link'
 
+
 export default function Why(){
 
     return(
@@ -19,7 +20,10 @@ export default function Why(){
             </Link>
                     </div>
                     <div className={styles.shadow}><div className={styles.svg}></div></div>
+
+                    
             </div>
 
+                
     )
 }

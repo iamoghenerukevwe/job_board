@@ -1,6 +1,6 @@
 import styles from '@/styles/Hero.module.css'
 import Link from 'next/link'
-import Button from './Button'
+import  New  from './Primary';
 
 
 
@@ -12,24 +12,33 @@ export default function Hero() {
 
         <div className={styles.hero}>
             
-            <div className={styles.credit}>
-                <span> The following project is intended solely for the purpose of helping others and is not intended to generate any profit or financial gain. </span>
-                <span> The following project is intended solely for the purpose of helping others and is not intended to generate any profit or financial gain. </span>
-                        </div>
+            
 
             <div className={styles.focus}>
                 
-            <div className={styles.primary}>one job <span>board</span> <br /> for us all</div>
+            <div className={styles.primary}> 
+                Focusing  <br/>
+                on your success,  <br/>
+                we're the <span>one-stop</span>  <br/>
+                tech job board you'll need.
 
-            <div className={styles.border}></div>
+                <New />                
+             </div>
 
-            <div className={styles.secondary}>One board, endless opportunities - access IT job postings from multiple sources 
-                                            on this job board.</div>
+            <div className={styles.border}>
+                <div className={styles.circle}>
+                    
+                </div>
+                
+
+            </div>
+
+            
                             
            
                  
             </div>
-            <div className={styles.nav}>
+            {/* <div className={styles.button}>
             
 
             <Link href ="https://nextjs.org/docs/messages/react-hydration-error">
@@ -37,7 +46,7 @@ export default function Hero() {
                     <Button />
                 </div>
             </Link>
-            </div>
+            </div> */}
            
 
             
@@ -46,3 +55,11 @@ export default function Hero() {
     )
     
 }
+
+
+/*
+<div className={styles.credit}>
+                <span> The following project is intended solely for the purpose of helping others and is not intended to generate any profit or financial gain. </span>
+                <span> The following project is intended solely for the purpose of helping others and is not intended to generate any profit or financial gain. </span>
+                        </div>
+*/

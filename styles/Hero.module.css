@@ -1,20 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500&family=Grandstander:wght@900&family=Kanit:wght@500&display=swap');
-@import url('https://fonts.cdnfonts.com/css/provoke-personal-use-only');
-@import url('https://fonts.cdnfonts.com/css/cheeronsta');
-@import url('https://fonts.cdnfonts.com/css/ploni');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/g-guarantee');
+@import url('https://fonts.cdnfonts.com/css/g-grest');
 
 .hero {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-bottom: 5vh;
     align-items: center;
     height: 100vh;
     color: white;
-    background: rgb(10,29,21);
-    background: linear-gradient(108deg, #040e0a 0%, #091b16 82%);
-    font-family: 'Cheeronsta', sans-serif;
+    background: #000000;
+    font-family: 'g Guarantee', sans-serif;
   }
 
   .hero::before{
@@ -26,18 +23,16 @@
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.06;
+      opacity: 0.05;
   }
 
   .nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 19vh;
-    width: 9vw;
-    margin-top: 20vh;
-    border-radius: 10em;
-    background-color: #FAF5DD;
+    height: 7vh;
+    width: 100vw;
+    
   }
 
   .apply{
@@ -50,60 +45,65 @@
   }
 
 .focus{
-    margin-top: 32vh;
+    height: 100%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     position: relative;
+    
 }
 
   .primary{
-    font-family: 'Provoke-Personal-Use-Only', sans-serif;
-    font-size: 8em;
+    width: 60%;
+    height: 60%;
+    margin-left: 5%;    
+    font-size: 4.5em;
+    font-weight: 500;
     line-height: 1.1;
-    text-align: center;
     color: #FAF5DD;
+    letter-spacing: .1rem;
+  
   }
+
   .primary span{
+    font-family: 'g Grest', sans-serif;
+    color: #9c8503;
+    font-size: 1.2em;
+  }
+
+  .border{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    overflow: clip;
+  }
+.circle{
+  position: absolute; 
+  bottom: 0%; 
+  left: 0%;
+  height: 150%;
+  width: 200%;
+  border: 120px solid #77650044;
+  border-radius: 100%;
+}
+
+  .board{
     background-color: #FAF5DD;
     color: #040e0a;
     padding: .1em .1em 0 .1em;
-    margin-left: -.3em;
+    margin-left: .3em;
   }
   .secondary{
     color:#faf5dd88;
     font-size: larger;
     
   }
-
-  .credit{
-    position: absolute;
-    white-space: nowrap;
-    overflow: hidden;
-    min-width: 100vw;
-    height: 4vh;
-    font-size: smaller;
-    color: rgb(0, 0, 0);
-    background-color: #FAF5DD;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20vh;
-    
+  
+  .noise{
+    color: red;
   }
 
-  .credit span{
-    display: inline-block;
-    margin-left: 5vw;
-    animation: credit 10s linear infinite;
-  }
+  //background: #011d21;
 
-  @keyframes credit{
-    0%{
-        transform: translateX(0%)
-    }
-
-    100%{
-        transform: translateX(-100%)
-    }
-  }
+  
