@@ -23,7 +23,7 @@
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.05;
+      opacity: 0.03;
   }
 
   .nav{
@@ -55,6 +55,7 @@
 }
 
   .primary{
+    padding-top: 3%;
     width: 60%;
     height: 60%;
     margin-left: 5%;    
@@ -68,7 +69,7 @@
 
   .primary span{
     font-family: 'g Grest', sans-serif;
-    color: #;
+    color: #776500;
     font-size: 1.2em;
   }
 
@@ -99,11 +100,4 @@
     font-size: larger;
     
   }
-  
-  .noise{
-    color: red;
-  }
-
-  //background: #011d21;
-
   

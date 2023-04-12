@@ -14,10 +14,27 @@
 }
 
 .info{
-    width: 50%;
-    height: 20vh;
-    background-color: red;
-    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 15vh;
+    font-family: 'g Guarantee', sans-serif;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+}
+
+.in{
+    display: flex;
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+
 }
 .header{
     font-size: 2em;
@@ -27,17 +44,28 @@
 .group{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    
+    width: 80%;
+    justify-content: space-between;    
 }
 
 .item{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     height: 35vh;
-    width: 16vw;
+    width: 12vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.item_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    
+    width: 10vw;
     font-family: 'Poppins', sans-serif;
 }
 .title{
@@ -45,9 +73,6 @@
     font-size: 1.1rem;
 }
 
-.small{
-    text-align: justify;
-}
 
 .png_1{
     background-image: url("../public/ui.png");

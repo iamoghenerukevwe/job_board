@@ -8,20 +8,20 @@ export default function Category() {
         <div className={styles.explore}>
 
             <div className={styles.info}>
-                5 different fields
-                over 3k unique companies
-                listings under 72hours
+                <div className={styles.in}>5 <br/>different fields</div>
+                <div className={styles.in}>over 3k <br/>unique companies</div>
+                <div className={styles.in}>listings <br/>under 72hours</div>
             </div>
 
             <div className={styles.header}>Explore by category</div>
 
             <div className={styles.group}>
 
-                <div className={styles.item}>
+                <div className={styles.item_1}>
                    <Link href="https://google.com/">
                         <div className={styles.png_1}></div>
                         <div className={styles.title}>UI/UX Design</div>
-                        <div className={styles.small}>Art of creating user-friendly and visually appealing interfaces that enhance the user's overall experience.</div>
+                        <div className={styles.small}>Art of creating user-friendly </div>
                    </Link>
                 </div>
 
