@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Job_board from '../components/Job_board'
 import Why from '../components/Why'
 import Category from '../components/Category'
+import Result from '../components/Result'
 
 
 export default function Home() {
@@ -17,10 +18,11 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         
-        <Hero />
+        {/* <Hero />
         <Category />
-        <Job_board />
-        <Why />
+        <Job_board /> */}
+        <Result/>
+        {/* <Why /> */}
         
 
       </main>

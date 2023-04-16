@@ -7,9 +7,7 @@
     min-height: 100vh;
     color: black;
     background-size: contain;   
-    font-family: 'Cheeronsta', sans-serif;
-    background: rgb(10,29,21);
-    background: linear-gradient(108deg, #040e0a 0%, #091b16 82%);
+    background: #000000;
   }
   
 
